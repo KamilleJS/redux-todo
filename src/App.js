@@ -24,7 +24,6 @@ function App(props) {
                     <button onClick={() => props.deleteTask(el.id)}>Delete</button>
                 </li>
             )}
-
             <input type="text" value={newName} onChange={(e) => setNewName(e.target.value)}/>
             <button onClick={createButtonHandler}>Add todo</button>
         </div>
